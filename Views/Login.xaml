@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.Login"
+             Title="Login">
+    
+    <!-- Grid layout -->
+    <Grid RowDefinitions=".1*, .1*, .05*, .1*, .1*, .55*"
+          ColumnDefinitions="*"
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+    <!-- Email entry -->
+    <Entry x:Name="Email"
+        Text="{Binding Email}"
+        Placeholder="Enter Email"
+        Grid.Row="0"/>
+
+    <!-- Password Entry -->
+    <Entry x:Name="Password"
+           Text="{Binding Password}"
+           Placeholder="Enter Password"
+           IsPassword="True"
+           Grid.Row="1"/>
+    
+    <!-- Error message label -->
+    <Label Text="{Binding InvalidLogin}"
+        TextColor="Red"
+        Grid.Row="2"/>
+
+    <!-- Button to submit details -->
+    <Button Text="                      Submit                      "
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Command="{Binding SubmitDetailsCommand}"
+        Grid.Row="3"/>
+
+<!-- Button to Create Account -->
+        <Button Text="              Create Account              "
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Command="{Binding NavigateCreateAccountCommand}"
+        Grid.Row="4"/>
+        
+    </Grid>
+</ContentPage>

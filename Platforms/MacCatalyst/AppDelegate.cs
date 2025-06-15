@@ -1,0 +1,10 @@
+﻿using AlbumApp;
+using Foundation;
+
+namespace BaseSolution;
+
+[Register("AppDelegate")]
+public class AppDelegate : MauiUIApplicationDelegate
+{
+    protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+}

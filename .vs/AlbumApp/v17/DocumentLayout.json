@@ -1,0 +1,429 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\services\\spotifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:services\\spotifyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\settingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:models\\dashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\models\\albummanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:models\\albummanagementmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\services\\albumdatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:services\\albumdatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\services\\albummodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:services\\albummodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\albummanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\albummanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\albumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\albumviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\apppreferencesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\apppreferencesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\createaccountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\albummanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\albummanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\album.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\album.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\apppreferences.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\apppreferences.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\apppreferences.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\apppreferences.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\createaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\createaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:views\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|c:\\users\\liamt\\mobileapp\\6002cem_liamtrodden-new-\\basesolution\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE0FF126-6376-44D0-8542-8C79F5483A02}|AlbumApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AlbumManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AlbumManagementViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AlbumManagementViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AlbumManagementViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AlbumManagementViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:19:54.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AlbumDatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AlbumDatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\AlbumDatabaseService.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AlbumDatabaseService.cs",
+              "RelativeToolTip": "Services\\AlbumDatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:21:29.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:21:18.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\DashboardModel.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\DashboardModel.cs",
+              "RelativeToolTip": "Models\\DashboardModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:49:50.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlbumManagementModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\AlbumManagementModel.cs",
+              "RelativeDocumentMoniker": "Models\\AlbumManagementModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\AlbumManagementModel.cs",
+              "RelativeToolTip": "Models\\AlbumManagementModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:49:52.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Settings.xaml",
+              "RelativeDocumentMoniker": "Views\\Settings.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Settings.xaml",
+              "RelativeToolTip": "Views\\Settings.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:15:49.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\SettingsViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\SettingsViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\SettingsViewModel.cs",
+              "RelativeToolTip": "ViewModels\\SettingsViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwD0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:18:39.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:44:17.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpotifyService.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\SpotifyService.cs",
+              "RelativeDocumentMoniker": "Services\\SpotifyService.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\SpotifyService.cs",
+              "RelativeToolTip": "Services\\SpotifyService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwEsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:42:51.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:49:49.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlbumModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AlbumModel.cs",
+              "RelativeDocumentMoniker": "Services\\AlbumModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Services\\AlbumModel.cs",
+              "RelativeToolTip": "Services\\AlbumModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:44:35.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AlbumViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AlbumViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AlbumViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AlbumViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AlbumViewModel.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:19:52.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppPreferencesViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AppPreferencesViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AppPreferencesViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\AppPreferencesViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AppPreferencesViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:19:51.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateAccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\CreateAccountViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CreateAccountViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\CreateAccountViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CreateAccountViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:19:32.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:18:59.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:18:44.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Album.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Album.xaml",
+              "RelativeDocumentMoniker": "Views\\Album.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Album.xaml",
+              "RelativeToolTip": "Views\\Album.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:16:33.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AlbumManagement.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AlbumManagement.xaml",
+              "RelativeDocumentMoniker": "Views\\AlbumManagement.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AlbumManagement.xaml",
+              "RelativeToolTip": "Views\\AlbumManagement.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:16:29.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppPreferences.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AppPreferences.xaml",
+              "RelativeDocumentMoniker": "Views\\AppPreferences.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AppPreferences.xaml",
+              "RelativeToolTip": "Views\\AppPreferences.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:16:24.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppPreferences.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AppPreferences.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AppPreferences.xaml.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\AppPreferences.xaml.cs",
+              "RelativeToolTip": "Views\\AppPreferences.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:16:13.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreateAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\CreateAccount.xaml",
+              "RelativeDocumentMoniker": "Views\\CreateAccount.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\CreateAccount.xaml",
+              "RelativeToolTip": "Views\\CreateAccount.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:16:03.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Views\\Dashboard.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Dashboard.xaml",
+              "RelativeToolTip": "Views\\Dashboard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:16:00.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Login.xaml",
+              "RelativeDocumentMoniker": "Views\\Login.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\Views\\Login.xaml",
+              "RelativeToolTip": "Views\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:15:55.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T22:10:19.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\liamt\\mobileApp\\6002CEM_LiamTrodden-NEW-\\BaseSolution\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T22:09:52.568Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

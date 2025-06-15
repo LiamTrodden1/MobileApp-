@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.CreateAccount"
+             Title="Create Account">
+
+    <!-- define the grid layout -->
+    <Grid RowDefinitions=".1*, .1*, .1*, .05*, .1*, .1*, .45*"
+          ColumnDefinitions="*"
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+        <!-- Email entry -->
+        <Entry x:Name="Email"
+           Text="{Binding Email}"
+           Placeholder="Enter Email"
+           Grid.Row="0"/>
+
+        <!-- Password Entry -->
+        <Entry x:Name="Password"
+           Text="{Binding Password}"
+           Placeholder="Enter Password"
+           IsPassword="True"
+           Grid.Row="1"/>
+
+        <!-- Confirm Password -->
+        <Entry x:Name="ConfirmPassword"
+           Text="{Binding ConfirmPassword}"
+           Placeholder="Please Confirm Your Password"
+           IsPassword="True"
+           Grid.Row="2"/>
+
+        <!-- indicate error in creating account -->
+        <Label Text="{Binding InvalidCreate}"
+               TextColor="Red"
+               Grid.Row="3"/>
+
+        <!-- Button to submit details -->
+        <Button Text="                      Submit                      "
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Command="{Binding SubmitDetailsCommand}"
+            Grid.Row="4"/>
+
+        <!-- Button to Create Account -->
+        <Button Text="                 Back                 "
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Command="{Binding NavigateLoginCommand}"
+            Grid.Row="5"/>
+
+
+    </Grid>
+</ContentPage>

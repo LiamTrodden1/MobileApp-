@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.Settings"
+             Title="Settings">
+
+    <!-- define the grid layout -->
+    <Grid RowDefinitions="Auto, Auto, *"
+          ColumnDefinitions="*"
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto, Auto"
+              ColumnDefinitions="*"
+              Padding="10"
+              ColumnSpacing="10"
+              RowSpacing="10">
+
+            <!-- Old Password -->
+            <Entry x:Name="OldPassword"
+                Text="{Binding OldPassword}"
+                Placeholder="Enter Old Password"
+                IsPassword="True"
+                Grid.Row="0"/>
+
+            <!-- Password Entry -->
+            <Entry x:Name="Password"
+                Text="{Binding Password}"
+                Placeholder="Enter Password"
+                IsPassword="True"
+                Grid.Row="1"/>
+
+            <!-- Confirm Password -->
+            <Entry x:Name="ConfirmPassword"
+                Text="{Binding ConfirmPassword}"
+                Placeholder="Please Confirm Your Password"
+                IsPassword="True"
+                Grid.Row="2"/>
+
+            <!-- indicate error in creating account -->
+            <Label Text="{Binding InvalidChange}"
+                TextColor="Red"
+                Grid.Row="3"/>
+
+            <!-- Button to submit details -->
+            <Button Text="Change Password"
+                VerticalOptions="Center"
+                HorizontalOptions="FillAndExpand"
+                Command="{Binding ChangePasswordCommand}"
+                Grid.Row="4"/>
+        </Grid>
+    </Grid>
+</ContentPage>

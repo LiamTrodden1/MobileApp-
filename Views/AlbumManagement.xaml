@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.AlbumManagement"
+             Title="Album Management">
+
+
+    <!-- Wrap the CollectionView with a RefreshView for pull-to-refresh -->
+    <RefreshView IsRefreshing="{Binding IsRefreshing}"
+                 Command="{Binding LoadAlbumsCommand}">
+
+        <!-- CollectionView to display albums -->
+        <CollectionView ItemsSource="{Binding Albums}"
+                        SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <!-- StackLayout to arrange Image and Text horizontally -->
+                        <StackLayout Padding="10" Orientation="Horizontal" VerticalOptions="Center">
+
+                            <!-- Display album image -->
+                            <Image Source="{Binding albumImageURL}" 
+                                   WidthRequest="50" 
+                                   HeightRequest="50" 
+                                   Aspect="AspectFill"
+                                   Margin="0,0,10,0"/>
+
+                            <!-- StackLayout for the album details -->
+                            <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                                <!-- Display album title -->
+                                <Label Text="{Binding albumTitle}" FontAttributes="Bold"/>
+                                <!-- Display artist name -->
+                                <Label Text="{Binding artistName}" FontSize="12"/>
+                                <!-- Display album count -->
+                                <Label Text="{Binding count}" FontSize="12"/>
+                            </StackLayout>
+
+                        </StackLayout>
+
+                        <!-- Swipe action buttons -->
+                        <SwipeView.RightItems>
+                            <!-- Decrease button -->
+                            <SwipeItem Text="Decrease"
+                                       BackgroundColor="Red"
+                                       Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.DecreaseCountCommand}"
+                                       CommandParameter="{Binding .}" />
+                        </SwipeView.RightItems>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </RefreshView>
+
+</ContentPage>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.Dashboard"
+             Title="Dashboard">
+
+    <!-- Logout button  -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Log Out"
+                     Command="{Binding LogoutCommand}"/>
+    </ContentPage.ToolbarItems>
+
+
+    <!-- Define a grid layout with a 10-90% split thats spaced -->
+    <Grid RowDefinitions=".1*, .2*, .02*, .02*, .02*, .2*"
+          ColumnDefinitions="*"
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+        <!-- Title for the carousel view -->
+        <Label
+            Grid.Row="0"
+            Text="Most Recent New Albums"
+            FontSize="18"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+
+        <!-- carousle on row 1 bound to Albums Collection (Array) -->
+        <!-- https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/carouselview/layout?view=net-maui-9.0 -->
+        <CarouselView Grid.Row="1">
+            <CarouselView.ItemsSource>
+                <Binding Path="Albums" />
+            </CarouselView.ItemsSource>
+
+            <!-- Scroll horizontally and snap to center -->
+            <!--  https://learn.microsoft.com/en-us/dotnet/maui/user-interface/controls/carouselview/scrolling?view=net-maui-9.0 -->
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal"
+                    SnapPointsType="Mandatory"
+                    SnapPointsAlignment="Center" />
+            </CarouselView.ItemsLayout>
+
+            <!-- Bind The images and Lables in the CarouselView -->
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Image Source="{Binding ImageURL}" 
+                               WidthRequest="200"/>
+                        <Label Text="{Binding Name}" FontSize="16" HorizontalTextAlignment="Center"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+        
+        <!-- Total amount of albums listened to  -->
+        <Label
+            Grid.Row="2"
+            Text="Total Albums Listened To"
+            FontSize="18"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+        <Label Text="{Binding TotalCount}"
+            Grid.Row="3"
+            FontSize="18"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+        
+        <!-- Most Listened to Album-->
+        <Label
+            Grid.Row="4"
+            Text="Most Listened to Album"
+            FontSize="18"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+        <Label Text="{Binding MostListenedTitle}"
+            Grid.Row="6"
+            FontSize="18"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"/>
+        <Image Source="{Binding MostListenedImage}" 
+           Grid.Row="6"
+           HorizontalOptions="Center"
+           Aspect="AspectFit"
+           HeightRequest="150"/>
+        
+
+
+
+
+
+    </Grid>
+</ContentPage>

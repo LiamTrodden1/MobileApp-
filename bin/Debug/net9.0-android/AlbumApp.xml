@@ -1,0 +1,303 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlbumApp</name>
+    </assembly>
+    <members>
+        <member name="T:AlbumApp.ViewModels.AlbumManagementViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumManagementViewModel.Albums">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumManagementViewModel.albums"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.AlbumManagementViewModel.decreaseCountCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.AlbumManagementViewModel.DecreaseCountCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumManagementViewModel.DecreaseCountCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:AlbumApp.ViewModels.AlbumManagementViewModel.DecreaseCount(AlbumApp.Models.AlbumManagementModel)"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.AlbumViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.AlbumName">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumViewModel.albumName"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.AccessToken">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumViewModel.accessToken"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.AlbumResponse">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumViewModel.albumResponse"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.AlbumImageURL">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumViewModel.albumImageURL"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.AlbumStoredAlert">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AlbumViewModel.albumStoredAlert"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.AlbumViewModel.submitAlbumNameCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.AlbumViewModel.SubmitAlbumNameCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.SubmitAlbumNameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.AlbumViewModel.SubmitAlbumName"/>.</summary>
+        </member>
+        <member name="F:AlbumApp.ViewModels.AlbumViewModel.submitDatabaseCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.AlbumViewModel.SubmitDatabaseCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AlbumViewModel.SubmitDatabaseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.AlbumViewModel.SubmitDatabase"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.AppPreferencesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AppPreferencesViewModel.FavAlbumName">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AppPreferencesViewModel.favAlbumName"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AppPreferencesViewModel.FavAlbum">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AppPreferencesViewModel.favAlbum"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AppPreferencesViewModel.FavImageURL">
+            <inheritdoc cref="F:AlbumApp.ViewModels.AppPreferencesViewModel.favImageURL"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.AppPreferencesViewModel.submitFavAlbumNameCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.AppPreferencesViewModel.SubmitFavAlbumNameCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.AppPreferencesViewModel.SubmitFavAlbumNameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.AppPreferencesViewModel.SubmitFavAlbumName"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.CreateAccountViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.Email">
+            <inheritdoc cref="F:AlbumApp.ViewModels.CreateAccountViewModel.email"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.Password">
+            <inheritdoc cref="F:AlbumApp.ViewModels.CreateAccountViewModel.password"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.InvalidCreate">
+            <inheritdoc cref="F:AlbumApp.ViewModels.CreateAccountViewModel.invalidCreate"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.ConfirmPassword">
+            <inheritdoc cref="F:AlbumApp.ViewModels.CreateAccountViewModel.confirmPassword"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.CreateAccountViewModel.submitDetailsCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.CreateAccountViewModel.SubmitDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.SubmitDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.CreateAccountViewModel.SubmitDetails"/>.</summary>
+        </member>
+        <member name="F:AlbumApp.ViewModels.CreateAccountViewModel.navigateLoginCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.CreateAccountViewModel.NavigateLoginCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.CreateAccountViewModel.NavigateLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.CreateAccountViewModel.NavigateLogin"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.DashboardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.DashboardViewModel.Albums">
+            <inheritdoc cref="F:AlbumApp.ViewModels.DashboardViewModel.albums"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.DashboardViewModel.TotalCount">
+            <inheritdoc cref="F:AlbumApp.ViewModels.DashboardViewModel.totalCount"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.DashboardViewModel.MostListenedTitle">
+            <inheritdoc cref="F:AlbumApp.ViewModels.DashboardViewModel.mostListenedTitle"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.DashboardViewModel.MostListenedImage">
+            <inheritdoc cref="F:AlbumApp.ViewModels.DashboardViewModel.mostListenedImage"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.DashboardViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.DashboardViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.DashboardViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.DashboardViewModel.Logout"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.LoginViewModel.Email">
+            <inheritdoc cref="F:AlbumApp.ViewModels.LoginViewModel.email"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.LoginViewModel.Password">
+            <inheritdoc cref="F:AlbumApp.ViewModels.LoginViewModel.password"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.LoginViewModel.InvalidLogin">
+            <inheritdoc cref="F:AlbumApp.ViewModels.LoginViewModel.invalidLogin"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.LoginViewModel.submitDetailsCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.LoginViewModel.SubmitDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.LoginViewModel.SubmitDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.LoginViewModel.SubmitDetails"/>.</summary>
+        </member>
+        <member name="F:AlbumApp.ViewModels.LoginViewModel.navigateCreateAccountCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.LoginViewModel.NavigateCreateAccountCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.LoginViewModel.NavigateCreateAccountCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.LoginViewModel.NavigateCreateAccount"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.ViewModels.SettingsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.SettingsViewModel.OldPassword">
+            <inheritdoc cref="F:AlbumApp.ViewModels.SettingsViewModel.oldPassword"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.SettingsViewModel.Password">
+            <inheritdoc cref="F:AlbumApp.ViewModels.SettingsViewModel.password"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.SettingsViewModel.ConfirmPassword">
+            <inheritdoc cref="F:AlbumApp.ViewModels.SettingsViewModel.confirmPassword"/>
+        </member>
+        <member name="P:AlbumApp.ViewModels.SettingsViewModel.InvalidChange">
+            <inheritdoc cref="F:AlbumApp.ViewModels.SettingsViewModel.invalidChange"/>
+        </member>
+        <member name="F:AlbumApp.ViewModels.SettingsViewModel.changePasswordCommand">
+            <summary>The backing field for <see cref="P:AlbumApp.ViewModels.SettingsViewModel.ChangePasswordCommand"/>.</summary>
+        </member>
+        <member name="P:AlbumApp.ViewModels.SettingsViewModel.ChangePasswordCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:AlbumApp.ViewModels.SettingsViewModel.ChangePassword"/>.</summary>
+        </member>
+        <member name="T:AlbumApp.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Albums">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Albums" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AlbumName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AlbumName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AccessToken">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AccessToken" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AlbumResponse">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AlbumResponse" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AlbumImageURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AlbumImageURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AlbumStoredAlert">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AlbumStoredAlert" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FavAlbumName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FavAlbumName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FavAlbum">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FavAlbum" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FavImageURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FavImageURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InvalidCreate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InvalidCreate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ConfirmPassword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ConfirmPassword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MostListenedTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MostListenedTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MostListenedImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MostListenedImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InvalidLogin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InvalidLogin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.OldPassword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "OldPassword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.InvalidChange">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "InvalidChange" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Albums">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Albums" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AlbumName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AlbumName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AccessToken">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AccessToken" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AlbumResponse">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AlbumResponse" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AlbumImageURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AlbumImageURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AlbumStoredAlert">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AlbumStoredAlert" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FavAlbumName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FavAlbumName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FavAlbum">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FavAlbum" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FavImageURL">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FavImageURL" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InvalidCreate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InvalidCreate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ConfirmPassword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ConfirmPassword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MostListenedTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MostListenedTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MostListenedImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MostListenedImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InvalidLogin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InvalidLogin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.OldPassword">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "OldPassword" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.InvalidChange">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "InvalidChange" generated properties.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AlbumApp.Views.Album"
+             Title="Album">
+
+    <!-- Grid layout -->
+    <Grid RowDefinitions=".1*, .1*, .3*, .1*, 0.5*, .45*"
+          ColumnDefinitions="*"
+          Padding="10"
+          ColumnSpacing="10"
+          RowSpacing="10">
+
+        <!-- Error message label -->
+        <Label Text="Album Titles"
+            HorizontalOptions="Center"
+            Grid.Row="0"/>
+        
+        <!-- AlbumName entry -->
+        <Entry x:Name="Email"
+            Text="{Binding AlbumName}"
+            HorizontalOptions="Fill"
+            Placeholder="Enter Album Name"
+            Grid.Row="1"/>
+
+        <!-- Button to submit albumName -->
+        <Button Text="Submit"
+            VerticalOptions="Center"
+            HorizontalOptions="End"
+            Command="{Binding SubmitAlbumNameCommand}"
+            Grid.Row="1"/>
+        
+        <!-- Colour Grid Row 2-->
+        <BoxView Color="LightGray"
+                 Grid.Row="2"/>
+
+        <!-- Album Stats -->
+        <Label Text="{Binding AlbumResponse}" 
+           LineBreakMode="WordWrap"
+           HorizontalOptions="Start"
+           VerticalOptions="Center"
+           FontSize="12" 
+           FontAttributes="Bold"
+           Grid.Row="2"
+           Padding="10, 0, 150, 0"/>
+
+        <!-- Requested album cover -->
+        <Image Source="{Binding AlbumImageURL}" 
+           HorizontalOptions="End"
+           Aspect="AspectFit"
+           Grid.Row="2"/>
+
+        <!-- Button to save to dataabse -->
+        <Button Text="Confirm Album "
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Command="{Binding SubmitDatabaseCommand}"
+            Grid.Row="3"/>
+        
+        <!-- Alert Album Stored -->
+        <Label Text="{Binding AlbumStoredAlert}"
+               Grid.Row="4"/>
+        
+
+
+    </Grid>
+</ContentPage>
